@@ -281,3 +281,15 @@ a:active {
 #menu-de-navegacao ul li {
   margin: 0px 20px;
 }
+
+.novidade::before {
+  content: "Novidade!";
+  background-color: rgb(253, 177, 177);
+  color: #333;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 3px;
+  display: inline-block;
+  margin-right: 1em;
+  font-weight: bold;
+}
